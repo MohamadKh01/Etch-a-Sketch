@@ -2,11 +2,18 @@
     display: flex;
     flex-direction: column;
     margin-top: 2%;
-    width: 800px;
+    width: 600px;
     background-color: green;
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
     display: flex;
     justify-content: center;
 }
