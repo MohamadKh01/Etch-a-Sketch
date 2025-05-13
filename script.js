@@ -12,6 +12,11 @@ for(let i = 0; i < 16; i++){
         div.style.backgroundColor = "black";
         div.style.margin = "3px";
         
+        let flag = false;
+
+        div.addEventListener("mouseenter", ()=> div.style.backgroundColor = "aqua");
+        div.addEventListener("mouseout", ()=> div.style.backgroundColor = "black");
+
         row.appendChild(div);
     }
 
