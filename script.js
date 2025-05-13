@@ -13,8 +13,6 @@ for(let i = 0; i < 16; i++){
         div.style.margin = "3px";
         div.style.flex = "1";
         
-        let flag = false;
-
         div.addEventListener("mouseenter", ()=> div.style.backgroundColor = "aqua");
         div.addEventListener("mouseout", ()=> div.style.backgroundColor = "black");
 
